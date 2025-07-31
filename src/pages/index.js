@@ -1,0 +1,5 @@
+export {default as Home} from './home/Home'
+export {default as Following} from './following/Following'
+export {default as Profile} from './profile/Profile'
+export {default as Search} from './search/Search'
+export {default as Upload} from './upload/Upload'

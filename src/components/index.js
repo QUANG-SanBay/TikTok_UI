@@ -3,3 +3,4 @@ export {default as Sidebar} from './sidebar/Sidebar'
 export {default as Footer} from './footer/Footer'
 
 export {default as DefaultLayout} from './defaultLayout/DefaultLayout'
+export {default as OnlyHeaderLayout} from './onlyHeaderLayout/OnlyHeaderLayout'
