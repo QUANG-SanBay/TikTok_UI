@@ -1,0 +1,20 @@
+.wrapper{
+    width: 100%;
+    background-color: #f1f1f1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.content{
+    width: 100%;
+    min-height: 1000px;
+    display: flex;
+    justify-content: center;
+}
+.innerContent{
+    width: var(--defaultLayout-width);
+    display: flex;
+}
+.mainContent{
+    flex: 1;
+}

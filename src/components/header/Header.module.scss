@@ -1,0 +1,10 @@
+.wrapper{
+    height: var(--header-height);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.inner{
+    width: var(--defaultLayout-width);
+    height: 100%;
+}
