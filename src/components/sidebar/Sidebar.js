@@ -1,6 +1,8 @@
 import clsx from "clsx";
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import {faMagnifyingGlass} from '@fortawesome/free-solid-svg-icons'
+
+import TapControls from "./tapControls/TapControls";
 import styles from './Sidebar.module.scss'
 import {LogoDark} from '~/assets/imgs/'
 
@@ -22,6 +24,7 @@ function Sidebar(){
                     </div>
                 </button>
             </div>  
+            <TapControls></TapControls>
         </aside>
     )
 }

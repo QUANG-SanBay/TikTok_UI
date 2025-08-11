@@ -35,9 +35,14 @@
 }
 
 :root{
+    --primary-c: rgb(254, 44, 85);
     --black-c: rgb(0, 0, 0);
     --white-c: rgb(255, 255, 255);
-    --padding-left-sidebar: 24px;
+
+    --padding-left-sidebar: 18px;
+    --fontSize-Sidebar-icon: 2.1rem;
+    --margin-bottom-inSibar: 10px;
+    --hover-c-05: rgb(0, 0, 0, 0.05);
 
     --bgr-c: rgb(255, 255, 255);
     --bgr-c-a6: rgb(255, 255, 255,0.6);

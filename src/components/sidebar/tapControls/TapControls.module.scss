@@ -1,0 +1,46 @@
+$height-item: 40px;
+$width-item: 208px;
+.TapControls{
+    
+    padding-left: var(--padding-left-sidebar);
+    margin: 4px 0 var(--margin-bottom-inSibar) 0;
+    width: 100%;
+}
+.listTaps{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+.tapItem{
+    height: $height-item;
+    width: $width-item;
+    margin-bottom: 4px;
+    border-radius: 8px;
+    transition: all ease-in-out 0.15s;
+    &.active{
+        .tapLink{
+            color: var(--primary-c);
+        }
+    }
+    &:hover{
+        background-color: var(--hover-c-05);
+    }
+}
+.tapLink{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding-left: 4px;
+}
+.icon{
+    text-align: center;
+    height: 32px;
+    width: 32px;
+    font-size: var( --fontSize-Sidebar-icon);
+}
+.tapTitle{
+    font-size: 1.6rem;
+    text-align: center;
+    padding-left: 16px;
+    font-weight: 600;
+}

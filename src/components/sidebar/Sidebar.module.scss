@@ -7,6 +7,8 @@ $height-searchBtn: 40px;
 }
 .logo{
     padding-left: var(--padding-left-sidebar);
+    margin-top: 24px;
+    margin-bottom: var(--margin-bottom-inSibar);
     .logoItem {
         fill: black;
     }
@@ -14,6 +16,7 @@ $height-searchBtn: 40px;
 
 .search{
     padding-left: var(--padding-left-sidebar);
+    margin: 8px 0 var(--margin-bottom-inSibar) 0;
 }
 .searchBtn{
     display: flex;
@@ -28,7 +31,7 @@ $height-searchBtn: 40px;
 .searchBtnIcon{
     height: $height-searchBtn;
     width: $height-searchBtn;
-    font-size: 1.6rem;
+    font-size: var( --fontSize-Sidebar-icon);
     align-content: center;
     justify-items: center;
 }
