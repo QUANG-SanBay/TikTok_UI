@@ -6,11 +6,16 @@ $height-searchBtn: 40px;
     background-color: rgb(242, 242, 242);
 }
 .logo{
+    position: relative;
     padding-left: var(--padding-left-sidebar);
     margin-top: 24px;
     margin-bottom: var(--margin-bottom-inSibar);
     .logoItem {
         fill: black;
+    }
+    .logoItem:nth-child(2){
+        position: absolute;
+        left: var(--padding-left-sidebar);
     }
 }
 
