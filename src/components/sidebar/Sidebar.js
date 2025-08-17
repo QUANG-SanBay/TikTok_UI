@@ -5,6 +5,7 @@ import {faMagnifyingGlass} from '@fortawesome/free-solid-svg-icons'
 import TapControls from "./tapControls/TapControls";
 import styles from './Sidebar.module.scss'
 import {LogoDark} from '~/assets/imgs/'
+import ButtonLogin from "./buttonLogin/ButtonLogin";
 
 function Sidebar(){
     return(
@@ -25,6 +26,7 @@ function Sidebar(){
                 </button>
             </div>  
             <TapControls></TapControls>
+            <ButtonLogin></ButtonLogin>
         </aside>
     )
 }

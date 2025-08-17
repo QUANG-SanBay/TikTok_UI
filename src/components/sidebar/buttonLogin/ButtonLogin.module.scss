@@ -1,0 +1,26 @@
+
+.buttonLoginCtn{
+    width: 100%;
+}
+.buttonLogin{
+    color: var(--text-c-white);
+    background-color: var(--primary-c);
+    height: 40px;
+    width: 200px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 6px;
+    text-align: center;
+    span{
+        font-size: 1.6rem;
+        font-weight: 600;
+        line-height: 21px;
+    }
+    &:hover{
+        background-color: rgba(234, 40, 78, 1);
+        cursor: pointer;
+    }
+    &:active{
+        background-color: rgba(224, 39, 75, 1);
+    }
+}
