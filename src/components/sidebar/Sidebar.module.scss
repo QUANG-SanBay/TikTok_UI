@@ -1,9 +1,16 @@
 $height-searchBtn: 40px;
-
+.sidebarCtn{
+    width: 240px;
+    height: 100vh;
+}
 .sidebar{
+    position: fixed;
+    top: 0;
+    left: 0;
     width: 240px;
     height: 100%;
-    background-color: rgb(242, 242, 242);
+    background-color: var(--bgr-c);
+    z-index: 99;
 }
 .logo{
     position: relative;
@@ -22,13 +29,23 @@ $height-searchBtn: 40px;
 .search{
     padding-left: var(--padding-left-sidebar);
     margin: 8px 0 var(--margin-bottom-inSibar) 0;
+
+}
+.searchWrapper{
+    width: 320px;
+    height: 100vh;
+    background-color: var(--bgr-c);
+    border-left: 1px solid rgba(0, 0, 0, 0.12);
+    border-right: 1px solid rgba(0, 0, 0, 0.12);
+    outline: none;
 }
 .searchBtn{
     display: flex;
+    align-items: center;
     height: $height-searchBtn;
     width: 208px;
     border-radius: 94px;
-    background-color: var(--bgr-c-a6);
+    background-color: var(--bgr-search-c);
     &:hover{
         cursor: pointer;
     }

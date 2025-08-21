@@ -1,0 +1,36 @@
+.suggestCtn{
+    margin: 14px 0;
+    width: 100%;
+}
+.suggestTitle{
+    font-size: 1.4rem;
+    color: var(--text-c);
+    padding: 5px 12px 3px;
+}
+.suggestList{
+    list-style: none;
+}
+.suggestItem{
+    padding: 9px 16px;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+}
+.suggestIcon{
+    width: 16px;
+    height: 16px;
+    color: rgba(22, 24, 35, 0.34);
+    font-size: 0.6rem;
+    align-content: center;
+    text-align: center;
+}
+.suggestText{
+    padding-right: 12px;
+    padding-left: 8px;
+    h4{
+        line-height: 24px;
+        font-weight: 600;
+        font-size: 1.6rem;
+        color: var(--text-c);
+    }
+}
