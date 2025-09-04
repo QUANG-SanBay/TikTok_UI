@@ -1,0 +1,55 @@
+@mixin limitTex {
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.wrapper{
+    position: fixed;
+    top: 24px;
+    inset-inline-end: 24px;
+    border-radius: 999px;
+    overflow: hidden;
+    height: 48px;
+    padding: 8px;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 2px 10px 0px;
+}
+.inner{
+    display: flex;
+    align-items: center;
+}
+.listAction{
+    display: flex;
+    list-style: none;
+    padding-right: 8px;
+}
+.actionGetCoins{
+    .text{
+        @include limitTex;
+    }
+}
+.actionGetApp{
+    .text{
+        @include limitTex;
+    }
+}
+.actionPcApp{
+    .text{
+        @include limitTex;
+    }
+}
+.Account{
+    position: relative;
+    padding-left: 8px;
+    
+    &::before{
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        height: 20px;
+        width: 1px;
+        background-color: rgba(0, 0, 0, 0.12);
+    }
+}

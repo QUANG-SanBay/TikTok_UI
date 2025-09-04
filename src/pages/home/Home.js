@@ -1,16 +1,15 @@
-import {Button} from "~/components/button";
+import { Button } from "~/components/button";
+import { BoxFixedTopRight } from "~/components/boxFixed";
 
 
-function Home(){
+function Home() {
 
-    return(
-        <>
-            <h2>Home page</h2>
-            <Button size = 'small' capsule>
-                <span>Log in</span>
-            </Button>
-        </>
-
+    return (
+        <main>
+            <BoxFixedTopRight></BoxFixedTopRight>
+            This is home page
+            
+        </main>
     )
 }
 export default Home;

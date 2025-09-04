@@ -20,8 +20,8 @@ function Suggest() {
         <div className={styles.suggestCtn}>
             <div className={styles.suggestTitle}>You may like</div>
             <ul className={styles.suggestList}>
-                {suggestResult.map(() => (
-                    <li className={styles.suggestItem}>
+                {suggestResult.map((item) => (
+                    <li key={item} className={styles.suggestItem}>
                         <div className={styles.suggestIcon}>
                             <FontAwesomeIcon icon={faCircle} />
                         </div>
