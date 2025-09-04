@@ -1,6 +1,6 @@
 import styles from './DefaultLayout.module.scss'
 import clsx from 'clsx'
-import Sidebar from '../../sidebar/Sidebar'
+import { Sidebar }  from '~/components/layouts/sidebar/';
 
 function DefaultLayout({children}){
 

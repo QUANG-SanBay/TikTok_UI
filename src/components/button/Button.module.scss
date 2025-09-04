@@ -3,9 +3,9 @@
     align-items: center;
     justify-content: center;
     font-size: 1.4rem;
-    font-weight: 600;
+    font-weight: 400;
     min-height: 32px;
-    min-width: 76px;
+    min-width: 60px;
     background-color: var(--bgr-c);
     color: var(--text-c );
     border-radius: 4px;
@@ -37,6 +37,7 @@
 .primary{
     background-color: var(--primary-c);
     color: var(--text-c-white);
+    font-weight: 600;
     &:hover{
         background-color: var(--primary-hover-c);
     }
